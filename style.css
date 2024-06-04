@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+}
+
+body{
+    background: blue;
+}
+
+.display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+.display .container {
+    width: 400px;
+    height: 600px;
+    border: 1px solid;
+    background: orange;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+    
+}
+
+.display .container .point-div #point {
+    font: bold 25px verdana;
+}
+.display .container .div-descr #descr {
+    color: black;
+    text-align: center;
+    font: 20px verdana;
+    padding: 10px 10px;
+}
+.display .container .point-div {
+    position: absolute;
+    left: 7%;
+    top: 10%;
+}
+.display .container .question {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.display .container .question .btn {
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+    padding: 10px 10px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.display .container .div-descr  {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+.display .container .next-btn {
+    position: absolute;
+    top: 150%;
+    left: 80%;
+    color: gray;
+    height: 50px;
+    padding: 10px 10px;
+    width: 90px;
+    border-radius: 20px;
+    background: red;
+    transition: 1s;
+}
+.display .container .next-btn #description {
+   font: bold 25px verdana;
+   cursor: pointer;
+
+}
+.display .container .next-btn:hover {
+   background:rgb(10, 197, 10);
+   color: #1B3481;
+}
+.display .container .btn:hover {
+    background-color: #1B3481;
+    color: #fff;
+    box-shadow: 0 0 15px;
+}
+.display .container .question .btn.correct {
+    background: #000;
+}
+.final {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transition: 1s;
+    display: none;
+    cursor: pointer;
+}
+.final-page {
+    width: 400px;
+    height: 200px;
+    border: 1px solid;
+    background: green;
+    border-radius: 25px;
+    box-shadow: 0 0 16px;
+}
+.final .final-page .score-div {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.final .final-page .score-div .score {
+    font: bold 25px verdana;
+}
+.final .final-page .div {
+    position: absolute;
+    top: 40%;
+    left: 26%;
+}
+.final .final-page .div #button1 {
+    height: 40px;
+    width: 200px;
+    background: pink;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    margin: 5px;
+    font: bold 20px verdana;
+    cursor: pointer;
+
+    transition: 1s;
+}
+.final .final-page .div #button1:hover {
+    opacity: 1;
+    background: orange;
+}
+.paragraph-div1 {
+   position: absolute;
+   top: 80%;
+   left: 38%;
+}
+.paragraph-div2 {
+    position: absolute;
+    top: 80%;
+    left: 34%;
+}
+
+.paragraph-div1 .paragraph1 {
+    font: bold 25px verdana;
+    color: green;
+    display: none;
+}
+.paragraph-div2 .paragraph2 {
+    font: bold 25px verdana;
+    color: red;
+    display: none;
+}
+.display .container .music-btn {
+    position: absolute;
+    left: 10%;
+    top: 90%;
+}
+.display .container .music-btn .music-title {
+    font: 15px verdana;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background: purple;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.display .container .music-btn .music-title1 {
+    font: 15px verdana;
+    border-radius: 25px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background: purple;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.display .container .music-btn .music-title1:hover {
+    box-shadow: 0 0 15px purple;
+    opacity: .8;
+}
+.display .container .music-btn .music-title:hover {
+    box-shadow: 0 0 15px blue;
+    animation: animate linear 1s;
+}
+.name {
+    display: flex;
+    justify-content: center;
+}
+.name .h1 {
+    font: bold 100px verdana;
+    color: #1B3481;
+    cursor: pointer;
+    transition: 1s;
+}
+.name .h1:hover {
+    animation: animate 1s linear infinite;
+}
+
+
+.display .container .timer-div {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 80%;
+    top: 10%;
+    background: transparent;
+}
+.display .container .timer-div #timer {
+    font: 20px verdana;
+    text-align: center;
+}
+.lose-div {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    display: none;
+}
+.lose-div .lose {
+    font: bold 100px verdana;
+    transition: 1s;
+}
+@keyframes animate {
+    50% {
+       rotate: 360deg;
+    }
+    100% {
+        rotate: -360deg;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 920px){
+    .final {
+        position: absolute;
+        left: 2%;
+    }
+    .name .h1 {
+        position: absolute;
+        top: 10%;
+        font: bold 30px verdana;
+    }
+} 
+ 

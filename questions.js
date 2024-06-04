@@ -1,0 +1,73 @@
+export const data = [
+    [
+        { description: "What is the largest planet in th Solar System" },
+        { ques: "Earth", cur: false },
+        { ques: "Jupiter", cur: true },
+        { ques: "Saturn", cur: false },
+        { ques: "Uran", cur: false },
+    ],
+    [
+        { description: "In Olimpic archery, what color is the center of the target" },
+        { ques: "Red", cur: false },
+        { ques: "Blue", cur: false },
+        { ques: "Gold", cur: true },
+        { ques: "Silver", cur: false },
+    ],
+    [
+        { description: "In what year did the First World War ended" },
+        { ques: "1914", cur: false },
+        { ques: "1918", cur: true },
+        { ques: "1939", cur: false },
+        { ques: "1945", cur: false },
+    ],
+    [
+        { description: "Who painted the Mona Liza" },
+        { ques: "Van Gog", cur: false },
+        { ques: "Michelangelo", cur: false },
+        { ques: "Rapahael", cur:false },
+        { ques: "Leonrdo Da Vinchi", cur: true },
+    ],
+    [
+        { description: "Which country is known as the Land ofthe Rising sun" },
+        { ques: "Japan", cur: true },
+        { ques: "China", cur: false },
+        { ques: "South Korea", cur:false },
+        { ques: "North Korea", cur: false },
+    ],
+    [
+        { description: "Which country is the largest producer of coffe" },
+        { ques: "Brazil", cur: true },
+        { ques: "Colombia", cur: false },
+        { ques: "Vietnam", cur:false },
+        { ques: "France", cur: false },
+    ],
+    [
+        { description: "Which musical instrument has 88 keys" },
+        { ques: "Guitar", cur: false },
+        { ques: "Harp", cur: false },
+        { ques: "Melodia", cur:false },
+        { ques: "Piano", cur: true },
+    ],
+    [
+        { description: "Where do kangaroos originate from" },
+        { ques: "North America", cur: false },
+        { ques: "South America", cur: false },
+        { ques: "Asia", cur:false },
+        { ques: "Australia", cur: true },
+    ],
+    [
+        { description: "How many  centimetre are there in a milimeters" },
+        { ques: "10", cur: false },
+        { ques: "100", cur: false },
+        { ques: "0,001", cur:false },
+        { ques: "0,1", cur: true },
+    ],
+    [
+        { description: "In which city were the first modern olyimpic Games held" },
+        { ques: "Atens", cur: true },
+        { ques: "Paris", cur: false },
+        { ques: "Moscow", cur:false },
+        { ques: "London", cur: false },
+    ],
+];
+
